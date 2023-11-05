@@ -1,7 +1,6 @@
 import './Nav.scss'
 import { Container } from '../../utils'
 import logo from '../../assets/logo.svg'
-import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -10,18 +9,10 @@ const Nav = () => {
             <img src={logo} alt="" />
             <div>
                 <ul>
-                    <li>
-                        <Link>Home</Link>
-                    </li>
-                    <li>
-                        <Link>Blog</Link>
-                    </li>
-                    <li>
-                        <Link>About Us</Link>
-                    </li>
-                    <li>
-                        <Link></Link>
-                    </li>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>About Us</li>
+                    <li>Register</li>
                 </ul>
             </div>
         </Container>
