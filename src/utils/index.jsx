@@ -19,4 +19,9 @@ function Title({text}){
         <h3>{text}</h3>
     )
 }
-export {Container, Input, Button, Title}
+function MainTitle({text}){
+    return(
+        <h1>{text}</h1>
+    )
+}
+export {Container, Input, Button, Title, MainTitle}

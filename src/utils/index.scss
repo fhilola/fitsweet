@@ -23,11 +23,22 @@ input {
     font-size: 24px;
     line-height: 32px;
 }
-h3{
+
+h3 {
     color: var(--main-font-color);
-font-family: var(--sen);
-font-size: 36px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -2px;
+    font-family: var(--sen);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+h1 {
+    color: #232536;
+    text-align: center;
+    font-family: var(--sen);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
 }

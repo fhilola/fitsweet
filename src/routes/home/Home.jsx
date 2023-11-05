@@ -1,9 +1,12 @@
 import './Home.scss'
 import heroImg from '../../assets/hero.png'
 import { Container, Button } from '../../utils'
+import Main from '../../components/main/Main'
+import Section from '../../components/section/Section'
 
 const Home = () => {
   return (
+    <>
     <section>
       <div className='hero-img'>
         <img src={heroImg} alt="" />
@@ -22,6 +25,9 @@ const Home = () => {
         </Container>
       </div>
     </section>
+    <Main/>
+    <Section/>
+    </>
   )
 }
 export default Home
