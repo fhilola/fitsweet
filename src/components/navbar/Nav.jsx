@@ -2,8 +2,13 @@ import './Nav.scss'
 import { Button, Container } from '../../utils'
 import logo from '../../assets/logo.svg'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Nav = () => {
+  const navigate = useNavigate()
+  function navigateToLogin(){
+    navigate('login')
+  }
   return (
     <nav>
         <Container>
@@ -24,7 +29,7 @@ const Nav = () => {
                       <Link to={'register'}>Register</Link>
                     </li>
                 </ul>
-                <Button text={'Login'}/>
+                <button onClick={navigateToLogin}>Login</button>
             </div>
             </div>
         </Container>
