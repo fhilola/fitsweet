@@ -1,8 +1,13 @@
 import React from 'react'
+import { Container } from '../../utils'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <Container>
+      <div className="popular__blogs-wrapper">
+        
+      </div>
+    </Container>
   )
 }
 
