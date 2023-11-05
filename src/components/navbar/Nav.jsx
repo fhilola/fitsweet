@@ -1,19 +1,31 @@
 import './Nav.scss'
-import { Container } from '../../utils'
+import { Button, Container } from '../../utils'
 import logo from '../../assets/logo.svg'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <nav>
         <Container>
-            <img src={logo} alt="" />
+            <div className="nav__wrapper">
+              <img src={logo} alt="" />
             <div>
                 <ul>
-                    <li>Home</li>
-                    <li>Blog</li>
-                    <li>About Us</li>
-                    <li>Register</li>
+                    <li>
+                      <Link to={'/'}>Home</Link>
+                    </li>
+                    <li>
+                      <Link to={'all-posts'}>Blog</Link>
+                    </li>
+                    <li>
+                      <Link to={'about-us'}>About Us</Link>
+                    </li>
+                    <li>
+                      <Link to={'register'}>Register</Link>
+                    </li>
                 </ul>
+                <Button text={'Login'}/>
+            </div>
             </div>
         </Container>
     </nav>

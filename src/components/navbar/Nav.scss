@@ -1,4 +1,24 @@
 nav{
     background-color: var( --main-bg-color);
     padding: 26px 0;
+    .nav__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            display: flex;
+            gap: 0 83px;
+            ul{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                gap: 0 24px;
+                a{
+                color: var(--secondary-font-color);
+                text-decoration: none;
+                font-family: var(--inter);
+                }
+            }
+        }
+    }
 }
