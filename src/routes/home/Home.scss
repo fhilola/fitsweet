@@ -20,7 +20,7 @@ section {
             display: flex;
             flex-direction: column;
             gap: 24px 0;
-            h1 {
+            .home-title {
                 max-width: 803px;
                 color: var(--secondary-font-color);
                 font-family: var(--sen);

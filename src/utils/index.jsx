@@ -21,7 +21,17 @@ function Title({text}){
 }
 function MainTitle({text}){
     return(
-        <h1>{text}</h1>
+        <h1 className='main-title'>{text}</h1>
     )
 }
-export {Container, Input, Button, Title, MainTitle}
+function Description({text}){
+    return(
+        <p className='descrition'>{text}</p>
+    )
+}
+function SecondaryDescription({text}){
+    return(
+        <p className='secondary__descrition'>{text}</p>
+    )
+}
+export {Container, Input, Button, Title, MainTitle, Description}

@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 const Register = () => {
   return (
     <Container>
-      <form onSubmit={register}>
+      <form>
         <MainTitle text={'Register'} />
         <Input placeholder={'Firstname'} />
         <Input placeholder={'Lastname'} />

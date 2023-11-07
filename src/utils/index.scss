@@ -33,12 +33,27 @@ h3 {
     letter-spacing: -2px;
 }
 
-h1 {
-    color: #232536;
+.main-title {
+    color: var(--main-bg-color);
     text-align: center;
     font-family: var(--sen);
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -2px;
+}
+
+.descrition {
+    max-width: 405px;
+    color: var(--main-bg-color);
+    font-family: var(--inter);
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.secondary__descrition {
+    max-width: 232px;
+    color: var(--main-bg-color);
+    font-family: var(--inter);
+    line-height: 28px;
 }

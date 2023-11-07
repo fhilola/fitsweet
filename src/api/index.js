@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiInstance = axios.create({
-    baseURL: 'https://ap-blog-backend.up.railway.app/api/v1/auth/register',
+    baseURL: import.meta.env.VITE_API,
     headers: {
         'Content-Type' : 'application/json'
     },
